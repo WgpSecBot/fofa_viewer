@@ -14,7 +14,7 @@ public class MainApp extends Application {
         FXMLLoader loader = new FXMLLoader(getClass().getResource("/fxml/fofa_viewer.fxml"));
         Scene scene = new Scene(loader.load());
         stage.setScene(scene);
-        stage.setTitle("新密市公安局FoFa采集工具  v" + this.version+ " By f1ashine@WgpSec");
+        stage.setTitle("新密市公安局 FoFa采集工具  v" + this.version+ " By f1ashine@WgpSec");
         stage.show();
         stage.setMinWidth(1100);
         stage.setMinHeight(800);
